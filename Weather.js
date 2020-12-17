@@ -63,7 +63,7 @@ const weatherOption = {
   }
 }
 
-export default function Weather({temp,condition="Haze"}){
+export default function Weather({temp,condition,name}){
   return (
     <LinearGradient
       // Background Linear Gradient
@@ -74,6 +74,7 @@ export default function Weather({temp,condition="Haze"}){
       <View style={styles.halfContainer}>
         <MaterialCommunityIcons size={96} name={weatherOption[condition].iconName} color="white"/>
         <Text style={styles.temp}>{temp}°</Text>
+        <Text style={styles.temp}>{name}</Text>
       </View>
       <View style={styles.textContainer}>
         <Text style={styles.title}>{weatherOption[condition].title}</Text>

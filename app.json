@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "앱 실행시 나의 위치에 따른 날씨 와 온도를 알려주는 앱",
+    "githubUrl": "https://github.com/in-kim/fokin-weather.git"
   }
 }
